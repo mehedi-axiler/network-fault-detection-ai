@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Model files (optional)
+*.h5
+*.pkl
+
+# Environment variables
+.env
+.env.local
+
+# PID files
+*.pid
+gunicorn.pid
+
+# Temporary files
+simple_api.py
